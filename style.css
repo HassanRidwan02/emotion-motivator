@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+p, h3, label {
+    color: #fff
+}
+
+main{
+    background-color: #00296b;
+    width: 60%;
+    height: 95vh;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 20px 50px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p{
+    color: aliceblue;
+}
+
+input{
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    accent-color: #fdc500;
+    margin-bottom: 5px;
+}
+
+.get-emotion{
+    padding: 5px;
+    background-color: #fdc500;
+    color: #000;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+
+.quote-modal {
+    font-size: 20px;
+    background-color: #003f88;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    display: none;
+    padding: 60px;
+    height: 80%;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.emotion-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+label {
+    width: 120px;
+}
+
+
+#close-btn{
+    margin-top: 30px;
+}
